@@ -1,17 +1,30 @@
 {
-	"author": {
-		"email": "Hello@Playform.Cloud",
-		"name": "Playform",
-		"url": "https://playform.cloud"
-	},
+	"name": "vscode-azureextensionpack",
+	"displayName": "Azure Extension Pack",
+	"version": "0.0.1",
+	"private": false,
+	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/Foundation/issues"
 	},
-	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
-	"devDependencies": {
-		"typescript-esbuild": ""
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
 	},
-	"displayName": "Azure Extension Pack",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "0.4.5"
+	},
 	"extensionPack": [
 		"VisualStudioOnlineApplicationInsights.application-insights",
 		"ms-azuretools.azurerm-vscode-tools",
@@ -32,25 +45,12 @@
 		"vsciot-vscode.azure-iot-edge",
 		"vsciot-vscode.azure-iot-toolkit"
 	],
-	"galleryBanner": {
-		"color": "#0072c6",
-		"theme": "dark"
-	},
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
-	"icon": "azure-icon.png",
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "vscode-azureextensionpack",
-	"private": false,
 	"publishConfig": {
 		"access": "public"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
-	"type": "module",
-	"version": "0.0.1"
+	"icon": "azure-icon.png",
+	"galleryBanner": {
+		"color": "#0072c6",
+		"theme": "dark"
+	}
 }
