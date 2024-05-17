@@ -1,34 +1,13 @@
 {
 	"name": "vscode-azureextensionpack",
 	"displayName": "Azure Extension Pack",
-	"version": "0.0.1",
-	"private": false,
 	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzurePack#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzurePack/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzurePack.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
+		"@playform/build": "0.0.7"
 	},
 	"extensionPack": [
 		"VisualStudioOnlineApplicationInsights.application-insights",
@@ -50,9 +29,6 @@
 		"vsciot-vscode.azure-iot-edge",
 		"vsciot-vscode.azure-iot-toolkit"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
 	"icon": "azure-icon.png",
 	"galleryBanner": {
 		"color": "#0072c6",
