@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
 	"displayName": "Azure Extension Pack",
 	"extensionPack": [
@@ -27,4 +28,34 @@
 	},
 	"icon": "azure-icon.png",
 	"name": "vscode-azureextensionpack"
+=======
+	"name": "vscode-azureextensionpack",
+	"displayName": "Azure Extension Pack",
+	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
+	"extensionPack": [
+		"VisualStudioOnlineApplicationInsights.application-insights",
+		"ms-azuretools.azurerm-vscode-tools",
+		"ms-azuretools.vscode-azureappservice",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-azuretools.vscode-azurestorage",
+		"ms-azuretools.vscode-azureterraform",
+		"ms-azuretools.vscode-cosmosdb",
+		"ms-azuretools.vscode-docker",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"ms-mssql.mssql",
+		"ms-toolsai.vscode-ai",
+		"ms-vscode.azure-account",
+		"ms-vscode.azurecli",
+		"ms-vsts.team",
+		"mshdinsight.azure-hdinsight",
+		"usqlextpublisher.usql-vscode-ext",
+		"vsciot-vscode.azure-iot-edge",
+		"vsciot-vscode.azure-iot-toolkit"
+	],
+	"icon": "azure-icon.png",
+	"galleryBanner": {
+		"color": "#0072c6",
+		"theme": "dark"
+	}
+>>>>>>> 88e7cc4d0538504fc2531cf2965d1a0ab51cff26
 }
