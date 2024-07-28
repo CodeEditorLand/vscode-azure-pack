@@ -1,7 +1,6 @@
 {
-	"name": "vscode-azureextensionpack",
-	"displayName": "Azure Extension Pack",
 	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
+	"displayName": "Azure Extension Pack",
 	"extensionPack": [
 		"VisualStudioOnlineApplicationInsights.application-insights",
 		"ms-azuretools.azurerm-vscode-tools",
@@ -22,9 +21,10 @@
 		"vsciot-vscode.azure-iot-edge",
 		"vsciot-vscode.azure-iot-toolkit"
 	],
-	"icon": "azure-icon.png",
 	"galleryBanner": {
 		"color": "#0072c6",
 		"theme": "dark"
-	}
+	},
+	"icon": "azure-icon.png",
+	"name": "vscode-azureextensionpack"
 }
