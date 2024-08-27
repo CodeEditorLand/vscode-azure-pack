@@ -150,7 +150,7 @@ with Azure resources in VS Code.
     extension brings information from your production services right into the
     editor (via Code Lenses), helping you to find and fix issues even faster.
 
-## Installation
+## 🚀 Installation
 
 By installing this extension you will install all of the extensions listed
 above. Some of these extensions will have a dependency on the
