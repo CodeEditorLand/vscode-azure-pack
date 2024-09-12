@@ -1,51 +1,30 @@
 {
-    "name": "vscode-azureextensionpack",
-    "version": "0.0.11",
-    "publisher": "ms-vscode",
-    "displayName": "Azure Extension Pack",
-    "description": "The ultimate collection of extensions for working with Azure in VS Code!",
-    "license": "SEE LICENSE IN LICENSE",
-    "galleryBanner": {
-        "color": "#0072c6",
-        "theme": "dark"
-    },
-    "icon": "azure-icon.png",
-    "repository": {
-        "url": "https://github.com/microsoft/vscode-azure-pack"
-    },
-    "homepage": "https://github.com/microsoft/vscode-azure-pack",
-    "bugs": {
-        "url": "https://github.com/microsoft/vscode-azure-pack/issues"
-    },
-    "keywords": [
-        "azure"
-    ],
-    "categories": [
-        "Azure",
-        "Extension Packs"
-    ],
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "extensionPack": [
-        "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azureappservice",
-        "ms-azuretools.vscode-azurefunctions",
-        "ms-azuretools.vscode-cosmosdb",
-        "ms-azuretools.vscode-azurestorage",
-        "ms-mssql.mssql",
-        "ms-vscode.azurecli",
-        "ms-vsts.team",
-        "ms-azuretools.azurerm-vscode-tools",
-        "ms-azuretools.vscode-docker",
-        "usqlextpublisher.usql-vscode-ext",
-        "VisualStudioOnlineApplicationInsights.application-insights",
-        "vsciot-vscode.azure-iot-toolkit",
-        "vsciot-vscode.azure-iot-edge",
-        "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "mshdinsight.azure-hdinsight",
-        "ms-azuretools.vscode-azureterraform",
-        "ms-toolsai.vscode-ai"
-
-    ]
+	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
+	"displayName": "Azure Extension Pack",
+	"extensionPack": [
+		"ms-vscode.azure-account",
+		"ms-azuretools.vscode-azureappservice",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-azuretools.vscode-cosmosdb",
+		"ms-azuretools.vscode-azurestorage",
+		"ms-mssql.mssql",
+		"ms-vscode.azurecli",
+		"ms-vsts.team",
+		"ms-azuretools.azurerm-vscode-tools",
+		"ms-azuretools.vscode-docker",
+		"usqlextpublisher.usql-vscode-ext",
+		"VisualStudioOnlineApplicationInsights.application-insights",
+		"vsciot-vscode.azure-iot-toolkit",
+		"vsciot-vscode.azure-iot-edge",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"mshdinsight.azure-hdinsight",
+		"ms-azuretools.vscode-azureterraform",
+		"ms-toolsai.vscode-ai"
+	],
+	"galleryBanner": {
+		"color": "#0072c6",
+		"theme": "dark"
+	},
+	"icon": "azure-icon.png",
+	"name": "vscode-azureextensionpack"
 }
