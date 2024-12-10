@@ -1,26 +1,8 @@
 {
-	"name": "@codeeditorland/azureextensionpack",
-	"displayName": "Azure Extension Pack",
-	"version": "0.0.11",
-	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
-	"categories": [
-		"Azure",
-		"Extension Packs"
-	],
-	"keywords": [
-		"azure"
-	],
-	"homepage": "https://github.com/microsoft/vscode-azure-pack",
-	"bugs": {
-		"url": "https://github.com/microsoft/vscode-azure-pack/issues"
-	},
-	"repository": {
-		"url": "https://github.com/microsoft/vscode-azure-pack"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"publisher": "ms-vscode",
 	"dependencies": {},
+	"description": "The ultimate collection of extensions for working with Azure in VS Code!",
 	"devDependencies": {},
+	"displayName": "Azure Extension Pack",
 	"extensionPack": [
 		"VisualStudioOnlineApplicationInsights.application-insights",
 		"ms-azuretools.azurerm-vscode-tools",
@@ -41,12 +23,10 @@
 		"vsciot-vscode.azure-iot-edge",
 		"vsciot-vscode.azure-iot-toolkit"
 	],
-	"engines": {
-		"vscode": "^1.26.0"
-	},
-	"icon": "azure-icon.png",
 	"galleryBanner": {
 		"color": "#0072c6",
 		"theme": "dark"
-	}
+	},
+	"icon": "azure-icon.png",
+	"name": "@codeeditorland/azureextensionpack"
 }
